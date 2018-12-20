@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--自定义对话框布局-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_my"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_my_lessonname"
+        android:layout_width="match_parent"
+
+        android:layout_alignParentTop="true"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="10dp"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/dialog_my_lessonnum"
+        android:paddingLeft="10dp"
+
+        android:layout_below="@+id/dialog_my_lessonname"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/dialog_my_score"
+        android:paddingLeft="10dp"
+
+        android:layout_below="@id/dialog_my_lessonnum"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/dialog_my_teacher"
+        android:paddingLeft="10dp"
+
+        android:layout_below="@id/dialog_my_score"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/dialog_my_classroom"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/dialog_my_teacher"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/dialog_my_time"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/dialog_my_classroom"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/dialog_my_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/dialog_my_time"
+        android:text="确定"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+
+
+
+
+</RelativeLayout>
